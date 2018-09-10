@@ -17,7 +17,7 @@ function addElementToEndOfArray(array, element) {
   return arrayy;
 }
 
-function desctructivelyAddElementToEndOfArray(array, element) {
+function destructivelyAddElementToEndOfArray(array, element) {
   array.push(element);
   return array;
 }
@@ -43,7 +43,7 @@ function destructivelyRemoveElementFromEndOfArray(array, element) {
 }
 
 function removeElementFromEndOfArray(array, element) {
-  let arayy = array.slice();
+  let arrayy = array.slice();
   arrayy.pop();
   return arrayy;
 }
